@@ -10,6 +10,19 @@ body{
     min-height: 100vh;
     background-color: #19a2ae;
     font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+}
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 300px;
 }
 .card{
   min-width: 320px;
@@ -27,7 +40,7 @@ body{
   height: 150px;
   background-image: url(/images/bg-pattern-card.svg);
 }
-img{
+.avatar{
   width: 80px;
   height: 80px;
   border-radius: 50px;
