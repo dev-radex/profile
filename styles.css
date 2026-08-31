@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #19a2ae;
-    font-family: 'Kumbh Sans', sans-serif;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #19a2ae;
+  font-family: 'Kumbh Sans', sans-serif;
+  position: relative;
 }
 .top{
   position: absolute;
