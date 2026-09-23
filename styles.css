@@ -20,7 +20,18 @@
   height: 800px;
   width: 800px;
   /* transform: rotate(10deg); */
-  z-index: 0;
+  /* z-index: 0; */
+
+
+ /* position: absolute;
+  top: -230px;
+  left: -230px;
+  width: 580px;
+  height: 580px;
+  z-index: 0;  */
+
+
+
 
 }
 .bottom{
@@ -29,9 +40,18 @@
   right: -220px;
   height: 1000px;
   width: 900px;
-  transform: rotate(-10deg);
+  /* transform: rotate(-10deg); */ */
 
-  /* z-index: -1; */
+  /* z-index: -1;
+
+
+
+   /* position: absolute;
+  bottom: -280px;
+  right: -280px;
+  width: 750px;
+  height: 750px;
+  z-index: 0; */
 }
 .card{
   min-width: 320px;
@@ -77,46 +97,31 @@ p{
   padding: 20px;
   list-style: none;
 }
-@media  (max-width:575px) {
+@media  (max-width:600px) {
     .card{
       margin: 0 auto;
       justify-self: center;
-    }    
-}
-@media(max-width:700px) {
+      width: 60%;
+      font-size: 20px;
+    }
+
   .bottom{
-    /* transform: rotate(80deg); */
+    transform: rotate(13deg);
     /* position: relative; */
-    bottom: -20px;
-    width: 400px;
-    height: 350px;
-    right: -250px;
+    /* /* bottom: -191px; */
+    bottom: -160px;
+    right: -500px; 
+    width: 600px;
+    height: 600px;
+    right: -314px;
   }
   .top{
+        width: 600px;
+        height: 600px;
+        top: -242px;
+        transform: rotate(-22deg);
     /* height: 700px;
   width: 800px; */
   /* transform: rotate(10deg); */
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
